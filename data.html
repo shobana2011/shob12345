@@ -11,7 +11,6 @@
   font-size: 20px;
   color: white;
   background-color: green;
-  background-image: url('searchicon.png');
   background-position: 10px 10px; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
@@ -23,12 +22,27 @@ body{
   position: absolute;
   right: 35%;
 }
+
+a:link, a:visited {
+  background-color: green;
+  color: white;
+  padding:  12px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  box-sizing: border-box;
+  
+}
+
+a:hover, a:active {
+  background-color: green;
+}
 </style>
 </head>
 <body>
   <h1> Customer Details</h1>
 <form>
-  <button class="button">New</button>
+  <a href="data1.html" target="_blank">New</a>
   <button class="button">Update</button>
   <button class="button">Delete</button>
 </form>
