@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="imgform.css">
+        <style>
+
+.forminput {
+    margin-left: 15%;
+}
+.form {
+    color: whitesmoke;
+    background-color: black;
+}
+select {
+    color: whitesmoke;
+    list-style: square;
+}
+input, select {
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(107, 107, 107);
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    height: 40px;
+    width: 80%;
+    opacity: 100%;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: rgb(62, 194, 62);
+    height: 40px;
+    width: 140px;
+    border-radius: 25px;
+    border: none;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+
+            <div class="form">
+                <form action="#">
+                    <div class="forminput">
+                        <br>
+                        <br>
+                        <h2>
+                            Registration Info
+                        </h2>
+                        <br>
+                        <input type="text" name="firstName" required placeholder="First Name">
+                        <br>
+                        <br>
+                        <br>
+                        <input type="text" name="lastname" required placeholder="Last Name">
+                        <br>
+                        <br>
+                        <br>
+                        <select name="gender" id="gender">
+                            <option value="" selected disabled>Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="email" name="email" required placeholder="Email">
+                        <br>
+                        <br>
+                        <br>
+                        <input type="number" name="phonenumber" required placeholder="Phone">
+                        <br>
+                        <br>
+                        <br>
+                        <button type="submit">
+                            Submit
+                        </button>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
